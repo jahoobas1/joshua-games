@@ -1,0 +1,50 @@
+.content {
+    background-image: linear-gradient(rgb(52, 7, 73), black);
+    height: 100vh
+}
+
+.text {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header {
+    font-size: 25px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:not(.nohover):hover {
+    background-color: #3d3d3d;
+    color: rgb(255, 255, 255);
+}
+
+.topnav a.active {
+    background-color: rgb(34, 5, 48);
+    color: white;
+}
+
+.jumbotron {
+    background: none !important;
+    color: white!important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
